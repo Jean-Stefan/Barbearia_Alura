@@ -1,4 +1,8 @@
-body {
+#banner {
+    width: 100%;
+}
+
+.principal {
     background: #cccccc;
 }
 
@@ -10,18 +14,22 @@ p {
     text-align: center;
 }
 
-em strong {
-    color: red;
-}
-
 #missao {
     font-size: 20px;
 }
 
-#banner {
-    width: 100%;
+em strong {
+    color: red;
+}
+
+.beneficios {
+    background: white;
 }
 
 .item {
     font-style: italic;
+}
+
+h2 {
+    text-align: center;
 }
