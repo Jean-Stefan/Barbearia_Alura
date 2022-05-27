@@ -40,8 +40,11 @@ nav a {
     width: 30%;
     vertical-align: top;
     padding: 50px 0;
-    margin: 0, 1.5%;
+    margin: 0 1.5%;
     padding: 30px 20px;
+    box-sizing: border-box;
+    border: solid 2px #000000;
+    border-radius: 10px;
 }
 
 .produtos h2 {
@@ -56,4 +59,5 @@ nav a {
 .produtos li p:nth-child(even) {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 15px;
 }
